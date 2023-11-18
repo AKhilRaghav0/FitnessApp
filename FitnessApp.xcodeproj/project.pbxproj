@@ -15,6 +15,7 @@
 		E9C97C882B08841B009BE30D /* StreakText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C97C872B08841B009BE30D /* StreakText.swift */; };
 		E9C97C8A2B08878A009BE30D /* CircleProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C97C892B08878A009BE30D /* CircleProgress.swift */; };
 		E9C97C8C2B08ACB5009BE30D /* StepsCounterBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C97C8B2B08ACB4009BE30D /* StepsCounterBox.swift */; };
+		E9C97C8E2B08B067009BE30D /* SleepCounterBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C97C8D2B08B067009BE30D /* SleepCounterBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E9C97C872B08841B009BE30D /* StreakText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakText.swift; sourceTree = "<group>"; };
 		E9C97C892B08878A009BE30D /* CircleProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgress.swift; sourceTree = "<group>"; };
 		E9C97C8B2B08ACB4009BE30D /* StepsCounterBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsCounterBox.swift; sourceTree = "<group>"; };
+		E9C97C8D2B08B067009BE30D /* SleepCounterBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepCounterBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				E9C97C872B08841B009BE30D /* StreakText.swift */,
 				E9C97C892B08878A009BE30D /* CircleProgress.swift */,
 				E9C97C8B2B08ACB4009BE30D /* StepsCounterBox.swift */,
+				E9C97C8D2B08B067009BE30D /* SleepCounterBox.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9C97C8C2B08ACB5009BE30D /* StepsCounterBox.swift in Sources */,
+				E9C97C8E2B08B067009BE30D /* SleepCounterBox.swift in Sources */,
 				E9C97C862B0883B4009BE30D /* NameTitle.swift in Sources */,
 				E9C97C782B088011009BE30D /* ContentView.swift in Sources */,
 				E9C97C882B08841B009BE30D /* StreakText.swift in Sources */,

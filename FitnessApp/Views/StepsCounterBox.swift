@@ -9,7 +9,24 @@ import SwiftUI
 
 struct StepsCounterBox: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading){
+            HStack{
+                Image(systemName: "figure.step.training")
+                Text("Steps")
+                Spacer()
+                Image(systemName: "chevron.forward.circle.fill")
+                    .font(.headline)
+            }
+            
+            .foregroundColor(Color.orange)
+            
+            Text("8999").font(.system(size: 40, weight: .semibold, design: .rounded)) + Text("Steps")
+        }
+        .padding()
+        .background(Color.orange.opacity(0.2))
+        .cornerRadius(10)
+        .padding(.horizontal)
+        
     }
 }
 
