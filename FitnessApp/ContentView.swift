@@ -14,8 +14,12 @@ struct ContentView: View {
                 NameTitle()
                 StreakText()
                 CircleProgress()
+                    .frame(height: 150)
+                    .padding(.vertical, 4)
+                    
+                    
             }
-            .padding(.horizontal)
+            
         }
         
         
