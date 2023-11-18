@@ -8,6 +8,7 @@ import SwiftUI
 
 struct NameTitle: View {
     var body: some View {
+        
         HStack {
             Circle()
                 .frame(width: 50, height: 50)

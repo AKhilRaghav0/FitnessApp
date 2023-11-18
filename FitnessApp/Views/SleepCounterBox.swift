@@ -13,6 +13,7 @@ struct SleepCounterBox: View {
             HStack{
                 Image(systemName: "bed.double")
                 Text("Sleep")
+                    .fontWeight(.semibold)
                 Spacer()
                 VStack {
                     Image(systemName: "chevron.forward.circle.fill")

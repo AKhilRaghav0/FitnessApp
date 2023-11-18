@@ -13,6 +13,7 @@ struct StepsCounterBox: View {
             HStack{
                 Image(systemName: "figure.step.training")
                 Text("Steps")
+                    .fontWeight(.semibold)
                 Spacer()
                 Image(systemName: "chevron.forward.circle.fill")
                     .font(.headline)
@@ -20,7 +21,7 @@ struct StepsCounterBox: View {
             
             .foregroundColor(Color.orange)
             
-            Text("8999").font(.system(size: 40, weight: .semibold, design: .rounded)) + Text("Steps")
+            Text("8,999").font(.system(size: 40, weight: .semibold, design: .rounded)) + Text("Steps")
         }
         .padding()
         .background(Color.orange.opacity(0.2))

@@ -18,6 +18,7 @@ struct ContentView: View {
                     .padding(.vertical, 4)
                 StepsCounterBox()
                 SleepCounterBox()
+                WaterCounter()
             }
 //            .padding(.horizontal)
         }
