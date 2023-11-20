@@ -14,14 +14,16 @@ struct ContentView: View {
                     Label("Search", systemImage: "text.magnifyingglass.rtl")
                 }
             
-            Text("PROFILE")
+            ProfileView()
                 .tag("profile")
                 .tabItem {
                     Label("Profile", systemImage: "person")
                 }
-                .blur(radius: 55)
-                .background(.thinMaterial.opacity(0.3))
+               
         }
+//        .blur(radius: 55)
+        .background(.thinMaterial.opacity(0.3))
+        
     }
 }
 

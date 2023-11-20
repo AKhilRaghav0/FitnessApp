@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E92EF75A2B0BDDCF005F1F4B /* myGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92EF7592B0BDDCF005F1F4B /* myGoalsView.swift */; };
 		E94CFBDC2B0BB914002E4DC3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94CFBDB2B0BB913002E4DC3 /* ProfileView.swift */; };
 		E9C97C762B088011009BE30D /* FitnessAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C97C752B088011009BE30D /* FitnessAppApp.swift */; };
 		E9C97C782B088011009BE30D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C97C772B088011009BE30D /* ContentView.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E92EF7592B0BDDCF005F1F4B /* myGoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myGoalsView.swift; sourceTree = "<group>"; };
 		E94CFBDB2B0BB913002E4DC3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		E9C97C722B088011009BE30D /* FitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C97C752B088011009BE30D /* FitnessAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAppApp.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E92EF7582B0BD285005F1F4B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E92EF7592B0BDDCF005F1F4B /* myGoalsView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		E9C97C692B088011009BE30D = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +97,7 @@
 		E9C97C842B0882DB009BE30D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E92EF7582B0BD285005F1F4B /* ViewModel */,
 				E9C97C852B0883B4009BE30D /* NameTitle.swift */,
 				E94CFBDB2B0BB913002E4DC3 /* ProfileView.swift */,
 				E9C97C872B08841B009BE30D /* StreakText.swift */,
@@ -175,6 +186,7 @@
 				E9C97C862B0883B4009BE30D /* NameTitle.swift in Sources */,
 				E9C97C782B088011009BE30D /* ContentView.swift in Sources */,
 				E9C97C882B08841B009BE30D /* StreakText.swift in Sources */,
+				E92EF75A2B0BDDCF005F1F4B /* myGoalsView.swift in Sources */,
 				E9C97C762B088011009BE30D /* FitnessAppApp.swift in Sources */,
 				E9C97C8A2B08878A009BE30D /* CircleProgress.swift in Sources */,
 			);
