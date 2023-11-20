@@ -19,7 +19,7 @@ struct WaterCounter: View {
                 
                 Text("488ml/2440ml")
                     .font(.system(size: 13, weight: .light, design: .rounded))
-                    .foregroundColor(Color.black.opacity(0.6))
+                    .opacity(0.6)
                 Spacer()
                 VStack {
                     Image(systemName: "chevron.forward.circle.fill")
