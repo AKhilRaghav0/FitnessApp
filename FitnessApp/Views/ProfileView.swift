@@ -54,20 +54,20 @@ struct ProfileView: View {
                     
                     HStack {
                         Image(systemName: "trophy")
-                        NavigationLink("My Goals", destination: Text("Still WIP"))
+                        NavigationLink("My Goals", destination: myGoalsView())
                         //                            Text("My Goals")
                     }
                     
                     
                     HStack {
                         Image(systemName: "shared.with.you")
-                        NavigationLink("Family", destination: Text("WIP for a family"))
+                        NavigationLink("Family", destination: FamilyView())
                     }
                     
                     
                     HStack {
                         Image(systemName: "link.badge.plus")
-                        NavigationLink("3rd-Party account linking", destination: Text("will add accounts with images on it and navigation"))
+                        NavigationLink("3rd-Party account linking", destination: accountLinkingPage())
                     }
                     HStack {
                         Image(systemName: "person.text.rectangle.fill")
