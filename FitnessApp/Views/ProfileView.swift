@@ -14,36 +14,78 @@ struct ProfileView: View {
             VStack {
                 
                 Image("pfp2")
-                         .resizable()
-                         .aspectRatio(contentMode: .fit)
-                         .clipShape(Circle())
-                         .frame(maxWidth: 150, maxHeight: 150)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .clipShape(Circle())
+                    .frame(maxWidth: 150, maxHeight: 150)
                 Text("Akhil Raghav")
                     .font(.system(size: 24, weight: .semibold, design: .rounded))
                 Text("ID: 6019254356")
                     .font(.system(size: 12))
                     .foregroundColor(.gray)
+                ZStack {
+                    RoundedRectangle(cornerRadius: 300)
+                        .frame(maxWidth: 150, maxHeight: 20)
+                        .background(.thinMaterial)
+                    
+                    HStack (alignment: .center){
+                        Image(systemName: "star.circle.fill")
+                            .foregroundColor(Color.white)
+                        Text("Reached Goal : 12")
+                            .bold()
+                            .foregroundColor(.white)
+                            .font(.caption)
+                        
+                    }
+                    
+                }
                 
                 List {
                     
-                        HStack {
-                            Image(systemName: "applewatch")
-//                            Text("My Devices")
-//                            Spacer()
-                            NavigationLink("My Devices", destination: Text("nothing here for now"))
-                            
-                        }
+                    HStack {
+                        Image(systemName: "applewatch")
+                        //                            Text("My Devices")
+                        //                            Spacer()
+                        NavigationLink("My Devices", destination: Text("nothing here for now"))
                         
+                        
+                        
+                    }
                     
+                    HStack {
+                        Image(systemName: "trophy")
+                        NavigationLink("My Goals", destination: Text("Still WIP"))
+                        //                            Text("My Goals")
+                    }
+                    
+                    
+                    HStack {
+                        Image(systemName: "shared.with.you")
+                        NavigationLink("Family", destination: Text("WIP for a family"))
+                    }
+                    
+                    
+                    HStack {
+                        Image(systemName: "link.badge.plus")
+                        NavigationLink("3rd-Party account linking", destination: Text("will add accounts with images on it and navigation"))
+                    }
+                    HStack {
+                        Image(systemName: "person.text.rectangle.fill")
+                        NavigationLink("User feedback", destination: Text(" will add Text Field for issue and then submit button"))
+                    }
+                    HStack {
+                        Image(systemName: "gear")
+                        NavigationLink("Settings", destination: Text(" will add up settings later"))
+                    }
                 }
-                List {
-                    Text("More")
-                        .font(.system(size: 20, weight: .semibold))
-                }
-            }.navigationTitle("About Me")
-        }
+                
+                
+            }
+            
+        }.navigationTitle("About Me")
     }
 }
+
 
 struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {
