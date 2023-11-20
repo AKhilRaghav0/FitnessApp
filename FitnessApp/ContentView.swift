@@ -4,21 +4,23 @@ struct ContentView: View {
     var body: some View {
         TabView {
             ContentViewContent()
+                .tag("ContentView")
                 .tabItem {
                     Label("Home", systemImage: "house")
                 }
             
             Text("Second Tab Content")
                 .tabItem {
-                    Label("Tab 2", systemImage: "2.circle")
+                    Label("Search", systemImage: "text.magnifyingglass.rtl")
                 }
             
-            WaterCounter()
+            Text("PROFILE")
+                .tag("profile")
                 .tabItem {
-                    Label("Tab 3", systemImage: "drop.fill")
+                    Label("Profile", systemImage: "person")
                 }
                 .blur(radius: 55)
-                .background(.thickMaterial.opacity(0.3))
+                .background(.thinMaterial.opacity(0.3))
         }
     }
 }

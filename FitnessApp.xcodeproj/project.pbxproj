@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E94CFBDC2B0BB914002E4DC3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94CFBDB2B0BB913002E4DC3 /* ProfileView.swift */; };
 		E9C97C762B088011009BE30D /* FitnessAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C97C752B088011009BE30D /* FitnessAppApp.swift */; };
 		E9C97C782B088011009BE30D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C97C772B088011009BE30D /* ContentView.swift */; };
 		E9C97C7A2B088014009BE30D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C97C792B088014009BE30D /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E94CFBDB2B0BB913002E4DC3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		E9C97C722B088011009BE30D /* FitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C97C752B088011009BE30D /* FitnessAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAppApp.swift; sourceTree = "<group>"; };
 		E9C97C772B088011009BE30D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				E9C97C852B0883B4009BE30D /* NameTitle.swift */,
+				E94CFBDB2B0BB913002E4DC3 /* ProfileView.swift */,
 				E9C97C872B08841B009BE30D /* StreakText.swift */,
 				E9C97C892B08878A009BE30D /* CircleProgress.swift */,
 				E9C97C8B2B08ACB4009BE30D /* StepsCounterBox.swift */,
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9C97C902B08B5FD009BE30D /* WaterCounter.swift in Sources */,
+				E94CFBDC2B0BB914002E4DC3 /* ProfileView.swift in Sources */,
 				E9C97C8C2B08ACB5009BE30D /* StepsCounterBox.swift in Sources */,
 				E9C97C8E2B08B067009BE30D /* SleepCounterBox.swift in Sources */,
 				E9C97C862B0883B4009BE30D /* NameTitle.swift in Sources */,
