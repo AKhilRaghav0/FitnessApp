@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ProfileView: View {
+    @Environment(\.colorScheme) var colorScheme
     var body: some View {
         
         NavigationView {
@@ -18,6 +19,7 @@ struct ProfileView: View {
                     .aspectRatio(contentMode: .fit)
                     .clipShape(Circle())
                     .frame(maxWidth: 150, maxHeight: 150)
+                    .shadow(color: colorScheme == .light ? Color.black : Color.gray ,radius: 30)
                 Text("Akhil Raghav")
                     .font(.system(size: 24, weight: .semibold, design: .rounded))
                 Text("ID: 6019254356")
@@ -82,7 +84,9 @@ struct ProfileView: View {
                 
             }
             
-        }.navigationTitle("About Me")
+        }
+//        .navigationTitle("About Me")
+//        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
