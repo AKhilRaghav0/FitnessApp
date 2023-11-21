@@ -9,11 +9,16 @@ struct ContentView: View {
                     Label("Home", systemImage: "house")
                 }
             
-            Text("Second Tab Content")
+            SleepScreen()
+                .tag("Sleep")
                 .tabItem {
-                    Label("Search", systemImage: "text.magnifyingglass.rtl")
+                    Label("Sleep", systemImage: "moon.zzz")
                 }
-            
+            Text("WorkOut")
+                .tag("workout")
+                .tabItem {
+                    Label("Workout", systemImage: "figure.run.square.stack")
+                }
             ProfileView()
                 .tag("profile")
                 .tabItem {
@@ -21,6 +26,7 @@ struct ContentView: View {
                 }
                
         }
+        .accentColor(Color.purple)
 //        .blur(radius: 55)
         .background(.thinMaterial.opacity(0.3))
         
