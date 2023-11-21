@@ -21,6 +21,10 @@
 		E9C97C8C2B08ACB5009BE30D /* StepsCounterBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C97C8B2B08ACB4009BE30D /* StepsCounterBox.swift */; };
 		E9C97C8E2B08B067009BE30D /* SleepCounterBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C97C8D2B08B067009BE30D /* SleepCounterBox.swift */; };
 		E9C97C902B08B5FD009BE30D /* WaterCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C97C8F2B08B5FD009BE30D /* WaterCounter.swift */; };
+		E9ED82172B0C81FC003D242F /* SleepScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED82162B0C81FC003D242F /* SleepScreen.swift */; };
+		E9ED82192B0C8A30003D242F /* SleepScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED82182B0C8A30003D242F /* SleepScore.swift */; };
+		E9ED821B2B0C9248003D242F /* TimeAsleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED821A2B0C9248003D242F /* TimeAsleep.swift */; };
+		E9ED821D2B0CB0E8003D242F /* RegularityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED821C2B0CB0E8003D242F /* RegularityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		E9C97C8B2B08ACB4009BE30D /* StepsCounterBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsCounterBox.swift; sourceTree = "<group>"; };
 		E9C97C8D2B08B067009BE30D /* SleepCounterBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepCounterBox.swift; sourceTree = "<group>"; };
 		E9C97C8F2B08B5FD009BE30D /* WaterCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCounter.swift; sourceTree = "<group>"; };
+		E9ED82162B0C81FC003D242F /* SleepScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepScreen.swift; sourceTree = "<group>"; };
+		E9ED82182B0C8A30003D242F /* SleepScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepScore.swift; sourceTree = "<group>"; };
+		E9ED821A2B0C9248003D242F /* TimeAsleep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAsleep.swift; sourceTree = "<group>"; };
+		E9ED821C2B0CB0E8003D242F /* RegularityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,9 @@
 				E92EF7592B0BDDCF005F1F4B /* myGoalsView.swift */,
 				E92EF75B2B0BE774005F1F4B /* FamilyView.swift */,
 				E92EF75D2B0BEA6A005F1F4B /* accountLinkingPage.swift */,
+				E9ED82182B0C8A30003D242F /* SleepScore.swift */,
+				E9ED821A2B0C9248003D242F /* TimeAsleep.swift */,
+				E9ED821C2B0CB0E8003D242F /* RegularityView.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -111,6 +122,7 @@
 				E9C97C8B2B08ACB4009BE30D /* StepsCounterBox.swift */,
 				E9C97C8D2B08B067009BE30D /* SleepCounterBox.swift */,
 				E9C97C8F2B08B5FD009BE30D /* WaterCounter.swift */,
+				E9ED82162B0C81FC003D242F /* SleepScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,9 +198,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9C97C902B08B5FD009BE30D /* WaterCounter.swift in Sources */,
+				E9ED821B2B0C9248003D242F /* TimeAsleep.swift in Sources */,
+				E9ED821D2B0CB0E8003D242F /* RegularityView.swift in Sources */,
 				E92EF75E2B0BEA6A005F1F4B /* accountLinkingPage.swift in Sources */,
 				E94CFBDC2B0BB914002E4DC3 /* ProfileView.swift in Sources */,
 				E9C97C8C2B08ACB5009BE30D /* StepsCounterBox.swift in Sources */,
+				E9ED82192B0C8A30003D242F /* SleepScore.swift in Sources */,
 				E9C97C8E2B08B067009BE30D /* SleepCounterBox.swift in Sources */,
 				E92EF75C2B0BE774005F1F4B /* FamilyView.swift in Sources */,
 				E9C97C862B0883B4009BE30D /* NameTitle.swift in Sources */,
@@ -196,6 +211,7 @@
 				E9C97C882B08841B009BE30D /* StreakText.swift in Sources */,
 				E92EF75A2B0BDDCF005F1F4B /* myGoalsView.swift in Sources */,
 				E9C97C762B088011009BE30D /* FitnessAppApp.swift in Sources */,
+				E9ED82172B0C81FC003D242F /* SleepScreen.swift in Sources */,
 				E9C97C8A2B08878A009BE30D /* CircleProgress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
