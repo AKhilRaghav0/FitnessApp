@@ -7,17 +7,17 @@
 import SwiftUI
 
 struct NameTitle: View {
+    @Environment(\.colorScheme) var colorScheme
     var body: some View {
         
         HStack {
-            Circle()
-                .frame(width: 50, height: 50)
-                .overlay(
-                    Image("pfp2")
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: 30, height: 30)
-                )
+            Image("pfp2")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .clipShape(Circle())
+                .frame(maxWidth: 30, maxHeight: 30)
+                .shadow(color: colorScheme == .light ? Color.black : Color.gray ,radius: 30)
+            
             Spacer()
             Image(systemName: "chevron.down")
                 .font(.largeTitle)
